@@ -9,41 +9,42 @@
 body {
     background-color: SeaGreen;
     font-family: Verdana;
-    color:MintCream;
+    color: MintCream;
     background-image: url('https://i.pinimg.com/originals/d1/37/a7/d137a7786b782df94333d7a290324f3e.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-label{
-    font-weight: Verdana ;
+label {
+    font-weight: Verdana;
 }
 
 input[type="text"] {
-        font-family:sans-serif;
-        font-size: 16px;
-        padding: 4px;
-        border: 0px solid ;
-        border-radius: 9px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 4px;
+    border: 0px solid;
+    border-radius: 9px;
 }
 
-input[type="submit"] {
-        font-family: Arial,sans-serif;
-        font-size: 13px;
-        padding: 10px 20px;
-        background-color:MintCream ;
-        color: SeaGreen;
-        border: none;
-        border-radius: 9px;
-        cursor:none;
-        margin-bottom: 20px;
+input[type="submit"],
+.botao {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: MintCream;
+    color: SeaGreen;
+    border: none;
+    border-radius: 9px;
+    cursor: none;
+    margin-bottom: 20px;
 }
 
-.botao{
+.botao {
     margin-right: 900px;
 }
 
-header{
+header {
     text-align: center;
     margin-bottom: 600px;
 }
